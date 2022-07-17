@@ -1,0 +1,19 @@
+.popular-card{
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 80%;
+}
+.popular-card:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.popular-card-img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.owlCarousel{
+    margin-left: 200px;
+    margin-right: 200px;
+}
