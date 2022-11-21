@@ -10,7 +10,7 @@ function VideoCaptionSection() {
             className="responsive-iframe"
             src="https://www.youtube.com/embed/wDhysutq8-w"
             title="YouTube video"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
 

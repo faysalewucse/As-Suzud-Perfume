@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -15,30 +14,30 @@ function Footer() {
           {/* Left */}
           {/* Right */}
           <div>
-            <Link href="" className="me-4 text-reset">
+            <a href="/" className="me-4 text-reset">
               <i className="fab fa-facebook-f" />
-            </Link>
-            <Link href="" className="me-4 text-reset">
+            </a>
+            <a href="/" className="me-4 text-reset">
               <i className="fab fa-twitter" />
-            </Link>
-            <Link href="" className="me-4 text-reset">
+            </a>
+            <a href="/" className="me-4 text-reset">
               <i className="fab fa-google" />
-            </Link>
-            <Link href="" className="me-4 text-reset">
+            </a>
+            <a href="/" className="me-4 text-reset">
               <i className="fab fa-instagram" />
-            </Link>
-            <Link href="" className="me-4 text-reset">
+            </a>
+            <a href="/" className="me-4 text-reset">
               <i className="fab fa-linkedin" />
-            </Link>
-            <Link href="" className="me-4 text-reset">
+            </a>
+            <a href="/" className="me-4 text-reset">
               <i className="fab fa-github" />
-            </Link>
+            </a>
           </div>
           {/* Right */}
         </section>
         {/* Section: Social media */}
         {/* Section: Links  */}
-        <section className="">
+        <section>
           <div className="container text-center text-md-start mt-5">
             {/* Grid row */}
             <div className="row mt-3">
@@ -59,52 +58,37 @@ function Footer() {
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 {/* Links */}
                 <h6 className="text-uppercase fw-bold mb-4">প্রোডাক্টস</h6>
-                <p>
-                  <Link to="/" className="text-reset">
-                    আতর
-                  </Link>
-                </p>
-                <p>
-                  <Link to="/" className="text-reset">
-                    টুপি
-                  </Link>
-                </p>
-                <p>
-                  <Link to="/" className="text-reset">
-                    বই
-                  </Link>
-                </p>
-                <p>
-                  <Link to="/" className="text-reset">
-                    তেল
-                  </Link>
-                </p>
+                <a href="/" className="text-reset">
+                  আতর
+                </a>
+                <a href="/" className="text-reset">
+                  টুপি
+                </a>
+                <a href="/" className="text-reset">
+                  বই
+                </a>
+                <a href="/" className="text-reset">
+                  তেল
+                </a>
               </div>
               {/* Grid column */}
               {/* Grid column */}
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 {/* Links */}
                 <h6 className="text-uppercase fw-bold mb-4">প্রয়োজনীয়</h6>
-                <p>
-                  <Link to="/" className="text-reset">
-                    শপ
-                  </Link>
-                </p>
-                <p>
-                  <Link to="/" className="text-reset">
-                    আমাদের সম্পর্কে
-                  </Link>
-                </p>
-                <p>
-                  <Link to="/" className="text-reset">
-                    যোগাযোগ
-                  </Link>
-                </p>
-                <p>
-                  <Link to="/" className="text-reset">
-                    অভিযোগ
-                  </Link>
-                </p>
+                <a href="/" className="text-reset">
+                  শপ
+                </a>
+                <a href="/" className="text-reset">
+                  আমাদের সম্পর্কে
+                </a>
+                <a href="/" className="text-reset">
+                  যোগাযোগ
+                </a>
+
+                <a href="/" className="text-reset">
+                  অভিযোগ
+                </a>
               </div>
               {/* Grid column */}
               {/* Grid column */}
@@ -138,9 +122,9 @@ function Footer() {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
         >
           © 2021 Copyright:
-          <Link className="text-reset fw-bold" href="https://mdbootstrap.com/">
+          <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
             RDev
-          </Link>
+          </a>
         </div>
         {/* Copyright */}
       </footer>

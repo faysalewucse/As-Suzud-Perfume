@@ -15,7 +15,7 @@ function NewProductSection() {
         <div className="row g-4">
           {[...Array(8)].map((star, index) => {
             return (
-              <div className="col-lg-3 col-md-4 col-sm-6 col-6">
+              <div key={index} className="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div className="popular-card">
                   <img
                     className="popular-card-img"

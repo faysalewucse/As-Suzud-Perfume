@@ -13,7 +13,7 @@ function Navbar() {
               alt="site-icon"
               width="100%"
               height="50PX"
-              class="d-inline-block align-text-top"
+              className="d-inline-block align-text-top"
             />
           </Link>
           <button
