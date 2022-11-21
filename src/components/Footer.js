@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -14,24 +15,24 @@ function Footer() {
           {/* Left */}
           {/* Right */}
           <div>
-            <a href="" className="me-4 text-reset">
+            <Link href="" className="me-4 text-reset">
               <i className="fab fa-facebook-f" />
-            </a>
-            <a href="" className="me-4 text-reset">
+            </Link>
+            <Link href="" className="me-4 text-reset">
               <i className="fab fa-twitter" />
-            </a>
-            <a href="" className="me-4 text-reset">
+            </Link>
+            <Link href="" className="me-4 text-reset">
               <i className="fab fa-google" />
-            </a>
-            <a href="" className="me-4 text-reset">
+            </Link>
+            <Link href="" className="me-4 text-reset">
               <i className="fab fa-instagram" />
-            </a>
-            <a href="" className="me-4 text-reset">
+            </Link>
+            <Link href="" className="me-4 text-reset">
               <i className="fab fa-linkedin" />
-            </a>
-            <a href="" className="me-4 text-reset">
+            </Link>
+            <Link href="" className="me-4 text-reset">
               <i className="fab fa-github" />
-            </a>
+            </Link>
           </div>
           {/* Right */}
         </section>
@@ -59,24 +60,24 @@ function Footer() {
                 {/* Links */}
                 <h6 className="text-uppercase fw-bold mb-4">প্রোডাক্টস</h6>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to="/" className="text-reset">
                     আতর
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to="/" className="text-reset">
                     টুপি
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to="/" className="text-reset">
                     বই
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to="/" className="text-reset">
                     তেল
-                  </a>
+                  </Link>
                 </p>
               </div>
               {/* Grid column */}
@@ -85,24 +86,24 @@ function Footer() {
                 {/* Links */}
                 <h6 className="text-uppercase fw-bold mb-4">প্রয়োজনীয়</h6>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to="/" className="text-reset">
                     শপ
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to="/" className="text-reset">
                     আমাদের সম্পর্কে
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to="/" className="text-reset">
                     যোগাযোগ
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to="/" className="text-reset">
                     অভিযোগ
-                  </a>
+                  </Link>
                 </p>
               </div>
               {/* Grid column */}
@@ -137,9 +138,9 @@ function Footer() {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
         >
           © 2021 Copyright:
-          <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+          <Link className="text-reset fw-bold" href="https://mdbootstrap.com/">
             RDev
-          </a>
+          </Link>
         </div>
         {/* Copyright */}
       </footer>
