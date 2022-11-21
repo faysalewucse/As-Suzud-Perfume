@@ -1,0 +1,5 @@
+.quote-section{
+    background: rgb(139, 189, 207);
+        background: radial-gradient(circle, rgba(139, 189, 207, 0.7738355891719746) 0%, #5397c1af 100%);
+    font-family: 'Hind Siliguri', sans-serif;
+}

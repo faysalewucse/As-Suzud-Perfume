@@ -1,0 +1,36 @@
+.video-caption-section{
+    background-color: rgb(129, 158, 185);
+}
+
+.video-caption-row{
+    align-items: center;
+}
+
+.video-caption-text{
+    padding: 5vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: left;
+}
+
+
+@media screen and (min-width: 790px) {
+
+    iframe {
+        transition: 0.3s;
+        width: 400px;
+        height: 250px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    iframe {
+        transition: 0.3s;
+        width: 700px;
+        height: 500px;
+    }
+
+}

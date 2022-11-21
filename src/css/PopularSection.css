@@ -1,0 +1,23 @@
+.popular-card{
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.popular-card-img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+@media screen and (min-width: 660px) {
+    .popular-card:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            transition: 0.3s;
+            cursor: pointer;
+            margin-top: -5px;
+        }
+}
+
+@media screen and (min-width: 1199px) {
+    .popular-card {
+            width: 80%;
+        }
+}

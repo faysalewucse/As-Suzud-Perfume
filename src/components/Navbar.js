@@ -29,12 +29,12 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="ms-auto navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   হোম
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/shop">
                   শপ
                 </a>
               </li>

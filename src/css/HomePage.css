@@ -1,7 +1,6 @@
 .home-page{
     background: rgb(139, 189, 207);
     background: radial-gradient(circle, rgba(139, 189, 207, 0.7738355891719746) 0%, #5397c1af 100%);
-    font-family: 'Mina', sans-serif;
 }
 
 .homepage-row {
@@ -20,6 +19,23 @@
 
 .home-heading-img{
    border-radius: 20px;
+}
+.home-heading-img:hover {
+    border-radius: 20px;
+    margin-top: -5px;
+    transition: 0.3s;
+}
+
+.shop-btn{
+    text-decoration: none;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.shop-btn:hover{
+    background-color:black;
 }
 @media screen and (max-width: 1200px) {
     .homepage-row{
