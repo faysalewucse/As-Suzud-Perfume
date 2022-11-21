@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../css/Navbar.css";
 
 function Navbar() {
@@ -6,7 +7,7 @@ function Navbar() {
     <div>
       <nav className="shadow navbar navbar-expand-lg navbar-light bg-light">
         <div className="container p-3 container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img
               src="icons/site-icon.png"
               alt="site-icon"
@@ -14,7 +15,7 @@ function Navbar() {
               height="50PX"
               class="d-inline-block align-text-top"
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -29,51 +30,51 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="ms-auto navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" to="/">
                   হোম
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/shop">
+                <Link className="nav-link" to="/shop">
                   শপ
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  to="/"
                   id="navbarDropdownMenuLink"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   ক্যাটাগরী
-                </a>
+                </Link>
                 <ul
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/">
                       আতর
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/">
                       টুপি
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/">
                       বই
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/">
                   আমাদের সম্পর্কে
-                </a>
+                </Link>
               </li>
             </ul>
             <i className="ms-5 fa badge fa-lg" value={6}>
@@ -90,25 +91,24 @@ function Navbar() {
                 alt="cart-icon"
                 className="dropdown-toggle rounded-circle shadow"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
                 width={35}
                 height={35}
               />
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/">
                     Action
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/">
                     Another action
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/">
                     Something else here
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
